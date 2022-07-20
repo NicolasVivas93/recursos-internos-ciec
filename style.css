@@ -1,0 +1,24 @@
+.header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img,h1 {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid blue;
+    width: 25%;
+    height: 250px;
+}
